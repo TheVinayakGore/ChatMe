@@ -9,6 +9,8 @@ import { useTheme } from "next-themes";
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  // const user = useUser();
+  // console.log(user.user?.id);
 
   useEffect(() => {
     setMounted(true);
